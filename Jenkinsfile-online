@@ -11,7 +11,7 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIAL_ID = 'dockerhub-id'
-        GITHUB_CREDENTIAL_ID = 'github-mike-id'
+        GITHUB_CREDENTIAL_ID = 'github-id'
         KUBECONFIG_CREDENTIAL_ID = 'dev-k8s-loadtest-kubeconfig'
         REGISTRY = '192.168.3.22'
         DOCKERHUB_NAMESPACE = 'ops-private'
